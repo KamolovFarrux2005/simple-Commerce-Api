@@ -1,4 +1,4 @@
-const stripe = require('stripe')(process.env.STRIPE_PK);
+const stripe = require('stripe')(process.env.STRIPE_SK);
 
 
 const stripePayment = async(req,res)=>{
